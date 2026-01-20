@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ummu Ayam School | Quran Memorization Center</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+    <!-- Full-screen login page with background image -->
+    <div class="login-container">
+        <!-- Login Form Card -->
+        <div class="login-form-wrapper">
+            <div class="login-form-card">
+                <div class="login-header">
+                    <h1>Ummu Ayam School</h1>
+                    <p>Quran Memorization Center</p>
+                </div>
+                
+                <form id="loginForm" class="login-form">
+                    <!-- Error/Success Message Area -->
+                    <div id="loginMessage" class="login-message" style="display: none;"></div>
+                    
+                    <!-- Username Field -->
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input 
+                            type="text" 
+                            id="username" 
+                            name="username" 
+                            placeholder="Enter your username" 
+                            required 
+                            autocomplete="username"
+                        >
+                    </div>
+                    
+                    <!-- Password Field -->
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input 
+                            type="password" 
+                            id="password" 
+                            name="password" 
+                            placeholder="Enter your password" 
+                            required 
+                            autocomplete="current-password"
+                        >
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-login">Login</button>
+                    
+                    <!-- Info Text (for demo purposes) -->
+                    <p class="login-info">
+                        <small>Demo: Username: <strong>admin</strong> | Password: <strong>admin123</strong></small>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
